@@ -1,8 +1,4 @@
-# 🎯 NEXT STEP: Create `getting-started.md`
 
-Create this file: `D:\code\projects\create-nextjs-backend\docs-site\getting-started.md`
-
-```markdown
 # Getting Started
 
 Get your Next.js backend up and running in under 5 minutes.
