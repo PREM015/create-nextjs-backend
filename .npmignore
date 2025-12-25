@@ -1,0 +1,33 @@
+# Test files
+test-project/
+backend/
+*.test.js
+
+# Development
+p.py
+final_setup.py
+verify_setup.py
+fix_duplicate_export.py
+
+# Backups
+backup/
+backup_*/
+*.backup
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Tarball
+*.tgz
+
+# Lock files
+package-lock.json

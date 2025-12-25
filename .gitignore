@@ -1,4 +1,28 @@
+# Dependencies
 node_modules/
+
+# Testing
 test-project/
+*.test-project/
+
+# Logs
 *.log
+npm-debug.log*
+
+# OS
 .DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup
+backup/
+backup_*/
+
+# Misc
+.env
+*.local

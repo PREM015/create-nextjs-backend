@@ -1,74 +1,383 @@
-// Import all template modules
-import * as rootTemplates from './root/index.js';
-import * as apiTemplates from './api/index.js';
-import * as libTemplates from './lib/index.js';
-import * as serviceTemplates from './services/index.js';
-import * as middlewareTemplates from './middleware/index.js';
-import * as validatorTemplates from './validators/index.js';
-import * as typeTemplates from './types/index.js';
-import * as constantTemplates from './constants/index.js';
-import * as exceptionTemplates from './exceptions/index.js';
-import * as dtoTemplates from './dto/index.js';
-import * as repositoryTemplates from './repositories/index.js';
-import * as decoratorTemplates from './decorators/index.js';
-import * as filterTemplates from './filters/index.js';
-import * as interceptorTemplates from './interceptors/index.js';
-import * as policyTemplates from './policies/index.js';
-import * as jobTemplates from './jobs/index.js';
-import * as eventTemplates from './events/index.js';
-import * as configTemplates from './config/index.js';
-import * as helperTemplates from './helpers/index.js';
-import * as providerTemplates from './providers/index.js';
-import * as graphqlTemplates from './graphql/index.js';
-import * as schemaTemplates from './schemas/index.js';
-import * as hookTemplates from './hooks/index.js';
-import * as localeTemplates from './locales/index.js';
-import * as testTemplates from './tests/index.js';
-import * as scriptTemplates from './scripts/index.js';
-import * as docTemplates from './docs/index.js';
-import * as appTemplates from './app/index.js';
-import * as prismaTemplates from './prisma/index.js';
-import * as drizzleTemplates from './drizzle/index.js';
-import * as dockerTemplates from './docker/index.js';
-import * as githubTemplates from './github/index.js';
-import * as huskyTemplates from './husky/index.js';
-import * as vscodeTemplates from './vscode/index.js';
-import * as publicTemplates from './public/index.js';
 
-export const templates = {
-  root: rootTemplates,
-  api: apiTemplates,
-  lib: libTemplates,
-  services: serviceTemplates,
-  middleware: middlewareTemplates,
-  validators: validatorTemplates,
-  types: typeTemplates,
-  constants: constantTemplates,
-  exceptions: exceptionTemplates,
-  dto: dtoTemplates,
-  repositories: repositoryTemplates,
-  decorators: decoratorTemplates,
-  filters: filterTemplates,
-  interceptors: interceptorTemplates,
-  policies: policyTemplates,
-  jobs: jobTemplates,
-  events: eventTemplates,
-  config: configTemplates,
-  helpers: helperTemplates,
-  providers: providerTemplates,
-  graphql: graphqlTemplates,
-  schemas: schemaTemplates,
-  hooks: hookTemplates,
-  locales: localeTemplates,
-  tests: testTemplates,
-  scripts: scriptTemplates,
-  docs: docTemplates,
-  app: appTemplates,
-  prisma: prismaTemplates,
-  drizzle: drizzleTemplates,
-  docker: dockerTemplates,
-  github: githubTemplates,
-  husky: huskyTemplates,
-  vscode: vscodeTemplates,
-  public: publicTemplates,
+// templates/index.js
+// Main templates index - Exports all 365 template folders
+
+export * from './3d-models/index.js';
+export * from './5g/index.js';
+export * from './ab-testing/index.js';
+export * from './achievements/index.js';
+export * from './acl/index.js';
+export * from './affiliates/index.js';
+export * from './agritech/index.js';
+export * from './ai-agents/index.js';
+export * from './ai-ml/index.js';
+export * from './algo-trading/index.js';
+export * from './analytics/index.js';
+export * from './anonymization/index.js';
+export * from './anti-cheat/index.js';
+export * from './api/index.js';
+export * from './api-clients/index.js';
+export * from './api-composition/index.js';
+export * from './api-docs/index.js';
+export * from './api-gateway/index.js';
+export * from './api-keys/index.js';
+export * from './api-mocking/index.js';
+export * from './api-security-testing/index.js';
+export * from './api-tracking/index.js';
+export * from './api-transformation/index.js';
+export * from './api-versioning/index.js';
+export * from './app/index.js';
+export * from './ar-vr/index.js';
+export * from './asset-management/index.js';
+export * from './astronomy/index.js';
+export * from './audio-processing/index.js';
+export * from './audit-logging/index.js';
+export * from './auth-providers/index.js';
+export * from './auth-strategies/index.js';
+export * from './auto-scaling/index.js';
+export * from './autonomous-vehicle/index.js';
+export * from './background-jobs/index.js';
+export * from './bci/index.js';
+export * from './behavioral-analytics/index.js';
+export * from './bff/index.js';
+export * from './bi-tools/index.js';
+export * from './bioinformatics/index.js';
+export * from './biometrics/index.js';
+export * from './blockchain-indexing/index.js';
+export * from './blockchain-security/index.js';
+export * from './bnpl/index.js';
+export * from './bot-protection/index.js';
+export * from './brand-assets/index.js';
+export * from './bridges/index.js';
+export * from './caching/index.js';
+export * from './calendar/index.js';
+export * from './carbon-credits/index.js';
+export * from './case-management/index.js';
+export * from './cdc/index.js';
+export * from './cdp/index.js';
+export * from './cep/index.js';
+export * from './chaos-engineering/index.js';
+export * from './chaos-testing/index.js';
+export * from './chatbots/index.js';
+export * from './chemical-inventory/index.js';
+export * from './circuit-breakers/index.js';
+export * from './circular-economy/index.js';
+export * from './citizen-engagement/index.js';
+export * from './climate-modeling/index.js';
+export * from './clinical-decision/index.js';
+export * from './clinical-trials/index.js';
+export * from './cms/index.js';
+export * from './color-palette/index.js';
+export * from './communication/index.js';
+export * from './compliance/index.js';
+export * from './compliance-reporting/index.js';
+export * from './compression/index.js';
+export * from './computer-vision/index.js';
+export * from './config/index.js';
+export * from './config-management/index.js';
+export * from './connected-car/index.js';
+export * from './constants/index.js';
+export * from './construction-mgmt/index.js';
+export * from './content-moderation/index.js';
+export * from './content-moderation-ai/index.js';
+export * from './content-recommendation/index.js';
+export * from './contests/index.js';
+export * from './contract-auditing/index.js';
+export * from './contract-testing/index.js';
+export * from './corporate-wellness/index.js';
+export * from './cost-optimization/index.js';
+export * from './coworking/index.js';
+export * from './creative-briefs/index.js';
+export * from './creative-workflow/index.js';
+export * from './credential-stuffing/index.js';
+export * from './credit-scoring/index.js';
+export * from './crisis-communication/index.js';
+export * from './crm/index.js';
+export * from './cro/index.js';
+export * from './cross-border-payments/index.js';
+export * from './crypto-exchange/index.js';
+export * from './crypto-wallets/index.js';
+export * from './currency/index.js';
+export * from './custom-middleware/index.js';
+export * from './customer-journey/index.js';
+export * from './dam/index.js';
+export * from './data-aggregation/index.js';
+export * from './data-catalog/index.js';
+export * from './data-lakes/index.js';
+export * from './data-masking/index.js';
+export * from './data-pipeline/index.js';
+export * from './data-privacy/index.js';
+export * from './data-quality/index.js';
+export * from './data-retention/index.js';
+export * from './data-transfer/index.js';
+export * from './data-virtualization/index.js';
+export * from './data-warehouse/index.js';
+export * from './database/index.js';
+export * from './decentralized-storage/index.js';
+export * from './decorators/index.js';
+export * from './deduplication/index.js';
+export * from './defi/index.js';
+export * from './deployment-strategies/index.js';
+export * from './design-versioning/index.js';
+export * from './devops/index.js';
+export * from './did/index.js';
+export * from './digital-twin-mfg/index.js';
+export * from './digital-twins/index.js';
+export * from './disaster-management/index.js';
+export * from './disaster-recovery/index.js';
+export * from './distributed-tracing/index.js';
+export * from './dlp/index.js';
+export * from './dna-storage/index.js';
+export * from './docker/index.js';
+export * from './docs/index.js';
+export * from './drizzle/index.js';
+export * from './drm/index.js';
+export * from './drm-advanced/index.js';
+export * from './dto/index.js';
+export * from './e-government/index.js';
+export * from './edge/index.js';
+export * from './edge-ai/index.js';
+export * from './ediscovery/index.js';
+export * from './elearning/index.js';
+export * from './email-marketing/index.js';
+export * from './emergency-dispatch/index.js';
+export * from './energy-management/index.js';
+export * from './environmental-compliance/index.js';
+export * from './equipment-rental/index.js';
+export * from './error-tracking/index.js';
+export * from './esports/index.js';
+export * from './etl/index.js';
+export * from './ev-management/index.js';
+export * from './event-streaming/index.js';
+export * from './events/index.js';
+export * from './exceptions/index.js';
+export * from './facility-management/index.js';
+export * from './feature-flags/index.js';
+export * from './feedback/index.js';
+export * from './file-formats/index.js';
+export * from './filters/index.js';
+export * from './fintech/index.js';
+export * from './fire-detection/index.js';
+export * from './fleet-management/index.js';
+export * from './font-management/index.js';
+export * from './food-delivery/index.js';
+export * from './fraud-detection/index.js';
+export * from './game-analytics/index.js';
+export * from './game-state/index.js';
+export * from './geolocation/index.js';
+export * from './github/index.js';
+export * from './graceful-shutdown/index.js';
+export * from './grant-management/index.js';
+export * from './graphql/index.js';
+export * from './graphql-federation/index.js';
+export * from './grpc/index.js';
+export * from './guilds/index.js';
+export * from './health-checks/index.js';
+export * from './healthcare/index.js';
+export * from './helpers/index.js';
+export * from './honeypots/index.js';
+export * from './hooks/index.js';
+export * from './hsm/index.js';
+export * from './husky/index.js';
+export * from './hydroponics/index.js';
+export * from './iac/index.js';
+export * from './iap/index.js';
+export * from './identity-governance/index.js';
+export * from './image-recognition/index.js';
+export * from './immigration/index.js';
+export * from './incident-reporting/index.js';
+export * from './incident-response/index.js';
+export * from './influencer/index.js';
+export * from './insurtech/index.js';
+export * from './interactive-video/index.js';
+export * from './interceptors/index.js';
+export * from './invoicing/index.js';
+export * from './iot/index.js';
+export * from './ip-control/index.js';
+export * from './ipfs/index.js';
+export * from './jobs/index.js';
+export * from './language-detection/index.js';
+export * from './leaderboards/index.js';
+export * from './lib/index.js';
+export * from './licensing/index.js';
+export * from './lims/index.js';
+export * from './lis/index.js';
+export * from './live-broadcasting/index.js';
+export * from './live-streaming/index.js';
+export * from './livestock/index.js';
+export * from './load-balancing/index.js';
+export * from './load-testing/index.js';
+export * from './locales/index.js';
+export * from './long-polling/index.js';
+export * from './loyalty/index.js';
+export * from './matchmaking/index.js';
+export * from './mdm/index.js';
+export * from './media/index.js';
+export * from './medical-billing/index.js';
+export * from './medical-emergency/index.js';
+export * from './medical-imaging/index.js';
+export * from './meditation/index.js';
+export * from './mental-health/index.js';
+export * from './mes/index.js';
+export * from './message-queues/index.js';
+export * from './metaverse/index.js';
+export * from './micro-lending/index.js';
+export * from './microservices/index.js';
+export * from './middleware/index.js';
+export * from './mlops/index.js';
+export * from './mortgage-processing/index.js';
+export * from './multi-tenancy/index.js';
+export * from './multiplayer-sync/index.js';
+export * from './music-streaming/index.js';
+export * from './networking/index.js';
+export * from './nft-marketplace/index.js';
+export * from './nlp/index.js';
+export * from './notifications/index.js';
+export * from './nuclear-facility/index.js';
+export * from './nutrition/index.js';
+export * from './oauth-sso/index.js';
+export * from './observability/index.js';
+export * from './ocr/index.js';
+export * from './onboarding/index.js';
+export * from './oracles/index.js';
+export * from './orchestration/index.js';
+export * from './panic-button/index.js';
+export * from './particle-physics/index.js';
+export * from './password-policies/index.js';
+export * from './patient-portal/index.js';
+export * from './payments/index.js';
+export * from './peer-review/index.js';
+export * from './permits-licensing/index.js';
+export * from './personalization/index.js';
+export * from './pharmacy/index.js';
+export * from './podcast/index.js';
+export * from './policies/index.js';
+export * from './population-health/index.js';
+export * from './precision-agriculture/index.js';
+export * from './predictive-analytics/index.js';
+export * from './predictive-maintenance/index.js';
+export * from './print-on-demand/index.js';
+export * from './prisma/index.js';
+export * from './procurement/index.js';
+export * from './production-optimization/index.js';
+export * from './property-inspection/index.js';
+export * from './property-valuation/index.js';
+export * from './providers/index.js';
+export * from './public/index.js';
+export * from './public-records/index.js';
+export * from './public-safety/index.js';
+export * from './push-campaigns/index.js';
+export * from './qms/index.js';
+export * from './quantum/index.js';
+export * from './quantum-crypto/index.js';
+export * from './rasp/index.js';
+export * from './rate-limiting/index.js';
+export * from './real-estate/index.js';
+export * from './real-estate-crm/index.js';
+export * from './realtime/index.js';
+export * from './recommendations/index.js';
+export * from './referrals/index.js';
+export * from './regional/index.js';
+export * from './regtech/index.js';
+export * from './renewable-energy/index.js';
+export * from './rental-marketplace/index.js';
+export * from './reports/index.js';
+export * from './repositories/index.js';
+export * from './research-data/index.js';
+export * from './retargeting/index.js';
+export * from './ride-sharing/index.js';
+export * from './robo-advisory/index.js';
+export * from './root/index.js';
+export * from './rpa/index.js';
+export * from './rules-engine/index.js';
+export * from './safety-management/index.js';
+export * from './sanitization/index.js';
+export * from './schemas/index.js';
+export * from './scientific-collaboration/index.js';
+export * from './scripts/index.js';
+export * from './search/index.js';
+export * from './search-rescue/index.js';
+export * from './seasons/index.js';
+export * from './secrets-advanced/index.js';
+export * from './secrets-rotation/index.js';
+export * from './security/index.js';
+export * from './security-automation/index.js';
+export * from './security-testing/index.js';
+export * from './serverless/index.js';
+export * from './service-discovery/index.js';
+export * from './services/index.js';
+export * from './sleep-tracking/index.js';
+export * from './smart-building/index.js';
+export * from './smart-home/index.js';
+export * from './smoke-testing/index.js';
+export * from './sms-marketing/index.js';
+export * from './social-media/index.js';
+export * from './social-services/index.js';
+export * from './space-mission/index.js';
+export * from './speech/index.js';
+export * from './sse/index.js';
+export * from './stock-media/index.js';
+export * from './stream-processing/index.js';
+export * from './submarine-nav/index.js';
+export * from './subscriptions/index.js';
+export * from './subtitle-generation/index.js';
+export * from './supplements/index.js';
+export * from './supply-chain/index.js';
+export * from './supply-chain-visibility/index.js';
+export * from './support/index.js';
+export * from './sustainability/index.js';
+export * from './sustainable-supply/index.js';
+export * from './synthetic-data/index.js';
+export * from './teams/index.js';
+export * from './telemedicine/index.js';
+export * from './telemetry/index.js';
+export * from './tenant-management/index.js';
+export * from './tests/index.js';
+export * from './throttling/index.js';
+export * from './timeseries-db/index.js';
+export * from './timezone/index.js';
+export * from './tokenomics/index.js';
+export * from './tournaments/index.js';
+export * from './traffic-management/index.js';
+export * from './trainer-matching/index.js';
+export * from './transit-planning/index.js';
+export * from './translation/index.js';
+export * from './tts/index.js';
+export * from './types/index.js';
+export * from './validation/index.js';
+export * from './validators/index.js';
+export * from './vector-db/index.js';
+export * from './video-processing/index.js';
+export * from './virtual-economy/index.js';
+export * from './virtual-events/index.js';
+export * from './vod/index.js';
+export * from './voting-systems/index.js';
+export * from './vscode/index.js';
+export * from './vulnerability-scanning/index.js';
+export * from './waf/index.js';
+export * from './warehouse-automation/index.js';
+export * from './waste-management/index.js';
+export * from './water-quality/index.js';
+export * from './wearables/index.js';
+export * from './weather-alerts/index.js';
+export * from './web3/index.js';
+export * from './webhook-management/index.js';
+export * from './websockets-advanced/index.js';
+export * from './wellness-challenges/index.js';
+export * from './workflow-automation/index.js';
+export * from './workout-planning/index.js';
+export * from './zero-trust/index.js';
+
+// Export metadata
+export const templateMetadata = {
+  version: '1.0.0',
+  totalCategories: 365,
+  generatedAt: new Date().toISOString()
 };
+
+export default templateMetadata;
+// Aggregate export for consumers
+export const templates = {
+  metadata: templateMetadata
+};
+
