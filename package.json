@@ -1,7 +1,8 @@
 {
   "name": "create-nextjs-backend",
   "version": "1.0.0",
-  "description": "Complete Next.js 16.1.1 backend structure generator with 473+ production-ready files",
+  "description": "Complete Next.js 16.1.1 backend structure generator with  production-ready files",
+   "homepage": "https://prem015.github.io/create-nextjs-backend",
   "main": "index.js",
   "type": "module",
   "bin": {
@@ -43,7 +44,7 @@
   "bugs": {
     "url": "https://github.com/prem015/create-nextjs-backend/issues"
   },
-  "homepage": "https://github.com/prem015/create-nextjs-backend#readme",
+ 
   "dependencies": {
     "chalk": "^5.3.0",
     "inquirer": "^9.2.12",
