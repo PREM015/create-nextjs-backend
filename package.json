@@ -1,6 +1,6 @@
 {
   "name": "create-nextjs-backend",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Complete Next.js 16.1.1 backend structure generator with  production-ready files",
    "homepage": "https://prem015.github.io/create-nextjs-backend",
   "main": "index.js",
