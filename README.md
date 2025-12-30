@@ -41,7 +41,7 @@ create-nextjs-backend
 ### Local Development
 
 ```bash
-git clone https://github.com/yourusername/create-nextjs-backend.git
+git clone https://github.com/PREM015/create-nextjs-backend.git
 cd create-nextjs-backend
 npm install
 npm link
@@ -619,7 +619,7 @@ npm run dev
 
 ## 📄 License
 
-MIT © [Your Name](https://github.com/prem015)
+MIT © [PREM RAJ](https://github.com/prem015)
 
 ---
 
